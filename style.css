@@ -1,0 +1,31 @@
+body {
+  background-image: url("images/bg.gif");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#profile-wrapper {
+  text-align: center;
+}
+
+#profile-pic {
+  width: 150px;
+  height: 160px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-links ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+}
